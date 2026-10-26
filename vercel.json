@@ -1,0 +1,7 @@
+{
+  "cleanUrls": false,
+  "rewrites": [
+    { "source": "/uv-static", "destination": "/uv-static/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
